@@ -1,0 +1,63 @@
+body {
+  height:100%;
+  margin:0;
+  padding:0;
+  width:100%;
+}
+.notepad-goto-dlg{
+  height:100%;
+  left:0px;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:10;
+}
+.notepad-goto-dlg .dialogbox{
+  background-color:green;
+  border:1px solid;
+  height:160px;
+  margin:50px auto;
+  width:292px;
+}
+.notepad-goto-dlg .dialogbox .titlebar{
+  background-color:green;
+  height:30px;
+  margin:0;
+  position:absolute;
+  left:0;
+  top:0;
+  
+}
+.notepad-goto-dlg .dialogbox .titlebar .title{
+  position:absolute;
+  left:0;
+  top:0px;
+  line-height:30px;
+  margin:0 10px;
+}
+.notepad-goto-dlg .dialogbox.titlebar .btn-close{
+  position:absolute;
+  right:0;
+  top:0;
+  width:30px;
+  height:30;
+  background-color:red;
+  text-align:center;
+  line-height:30px;
+}
+.notepad-goto-dlg .dialogbox .main{
+  position:absolute;
+  top:30px;
+  left:0;
+  width:200px;
+  background-color:white;
+
+}
+
+.notepad-goto-dlg .dialogbox .btn-cancel{
+  bottom:200
+  height:28px;
+  position:absolute;
+  right:108px;
+  width:86px;
+}
