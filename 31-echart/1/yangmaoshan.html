@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>ECharts</title>
-    <!-- 引入 echarts.js -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts.min.js"></script>
+  <meta charset="UTF-8">
+  <title>二进熵函数曲线</title>
+  <link rel="stylesheet" href="layout.css">
+  <link rel="icon" href="https://i.wangding.in/favicon.ico" sizes="48x48" type="image/png">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts.min.js"></script>
+
 </head>
 <body>
-    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="main" style="width: 600px;height:400px;"></div>
-    <script type="text/javascript">
+  <div id="main"></div>
+ 
+  <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
         var myChart = echarts.init(document.getElementById('main'));
 
@@ -36,6 +38,8 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
     </script>
+ 
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<!--<script src="main.js"></script>-->
 </body>
 </html>
-
